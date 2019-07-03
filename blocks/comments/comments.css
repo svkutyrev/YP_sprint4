@@ -1,0 +1,183 @@
+.comments {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.comments__container {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: repeat(3, 382px);
+    grid-gap: 19px;
+}
+/*
+.comment {
+    display: flex;
+    flex-direction: column; 
+}*/
+
+.comment__image {
+    width: 97px;
+    height: 97px;
+    border-radius: 50%;
+    grid-area: photo;
+}
+
+.comment__quote {
+    margin-top: 42px;
+    margin-bottom: 24px;
+    
+    font-size: 14px;
+    line-height: 23px;
+    grid-area: comment;
+}
+
+.comment__author {
+    grid-area: name;
+}
+
+
+@media (min-width : 1024px) and (max-width : 1279px) {
+
+
+    .comments__container {
+
+        grid-template-columns: repeat(3, 296px);
+        grid-gap: 18px;
+    }
+
+}
+
+@media (min-width : 768px) and (max-width : 1023px) {
+
+    .comments__container {
+
+        grid-template-rows: repeat(3, auto);
+        grid-template-columns: 382px;
+        grid-gap: 47px;
+
+    }
+
+    .comment {
+        display: grid;
+        grid-template-rows: auto auto auto;
+        grid-template-columns: 382px;
+
+        grid-template-areas: 
+        "photo"
+        "name"
+        "comment"
+        ;
+        justify-items: center;
+
+    }
+
+   
+    .comment__quote {
+        margin-top: 24px;
+        margin-bottom: 0px;
+
+        font-size: 16px;
+        line-height: 23px;
+
+    }
+    
+    .comment__author {
+        margin-top: 16px;
+
+        font-size: 14px;
+        line-height: 22px;
+    }
+}
+
+@media (min-width : 375px) and (max-width : 767px) {
+
+    .comments__container {
+
+        grid-template-rows: repeat(3, auto);
+        grid-template-columns: 342px;
+        grid-gap: 48px;
+
+    }
+
+    .comment {
+        display: grid;
+        grid-template-rows: auto auto auto;
+        grid-template-columns: 342px;
+
+        grid-template-areas: 
+        "photo"
+        "name"
+        "comment"
+        ;
+        justify-items: center;
+
+    }
+
+   
+    .comment__quote {
+        margin-top: 24px;
+        margin-bottom: 0px;
+
+        font-size: 16px;
+        line-height: 23px;
+
+    }
+    
+    .comment__author {
+        margin-top: 16px;
+
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+}
+
+
+@media (min-width : 320px) and (max-width : 374px) {
+    .comments__container {
+
+        grid-template-rows: repeat(3, auto);
+        grid-template-columns: 288px;
+        grid-gap: 47px;
+
+    }
+
+    .comment {
+        display: grid;
+        grid-template-rows: auto auto auto;
+        grid-template-columns: 288px;
+
+        grid-template-areas: 
+        "photo"
+        "name"
+        "comment"
+        ;
+        justify-items: center;
+
+    }
+
+   
+    .comment__quote {
+        margin-top: 24px;
+        margin-bottom: 0px;
+
+        font-size: 16px;
+        line-height: 23px;
+
+    }
+    
+    .comment__author {
+        margin-top: 16px;
+
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+}
+
+
+
+
+
+

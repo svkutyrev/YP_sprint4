@@ -1,0 +1,274 @@
+.places {
+    width: 984px;
+    margin-top: 102px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.place {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+
+}
+
+.place:nth-child(n + 2) {
+
+    padding-top: 72px;
+
+}
+
+.place__row-1 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    margin-bottom: 60px;
+}
+
+.place__title {
+
+    width: 460px;
+    font-family: Inter;
+    font-size: 72px;
+    line-height: 65px;
+}
+
+.place__website {
+    width: 484px;
+    margin-left: 40px;
+
+}
+
+.place__url-heading {
+
+
+    margin-bottom: 16px;
+    font-family: Inter;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 0.2em;
+
+    color: #AAAAAA;
+
+}
+
+.place__url {
+    font-family: Inter;
+    font-size: 18px;
+    line-height: 30px;
+    text-decoration-line: underline;
+
+    color: #FFFFFF;
+
+}
+
+.place__image {
+
+    width: 460px;
+    height: 460px;
+    float: left;
+}
+
+.place__paragraph {
+
+    float: right;
+
+    font-family: Inter;
+    font-size: 18px;
+    line-height: 30px;
+    max-width: 484px;
+
+}
+
+@media (min-width : 1024px) and (max-width : 1279px) {
+
+
+    .place__row-1 {
+
+        margin-bottom: 40px;
+    }
+
+    .place__title {
+
+        width: 440px;
+
+    }
+
+    .place__website {
+        width: 456px;
+        margin-left: 32px;
+        align-content: flex-start;
+    
+    }
+
+    .place__image {
+
+        width: 440px;
+        height: 100%;
+        float: left;
+    }
+
+    .place__paragraph {
+        width: 456px;
+        margin-left: 32px;
+        justify-content: flex-start;
+
+    }
+
+    .place__row-2 {
+        width: 928px;
+        
+    }
+
+}
+
+@media (min-width : 768px) and (max-width : 1023px) {
+
+    .places {
+        width: 720px;
+        margin-top: 102px;
+    }
+
+    .place__row-1 {
+
+        margin-bottom: 51px;
+    }
+
+    .place__title {
+
+        width: 340px;
+        font-size: 42px;
+        line-height: 46px;
+    }
+
+    .place__website {
+        width: 352px;
+        margin-left: 28px;
+    }
+
+    .place__image {
+
+        width: 340px;
+        height: 340px;
+        float: left;
+    }
+
+    .place__paragraph {
+        width: 352px;
+        margin-left: 28px;
+
+        font-size: 16px;
+        line-height: 27px;
+        margin-bottom: 24px;
+    }
+}
+
+@media (min-width : 375px) and (max-width : 767px) {
+
+    .places {
+        width: 100vw;
+        margin-top: 64px;
+
+    }
+    .place {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .place__title {
+        width: calc(100% - (16px * 2));
+        margin: auto;
+        font-size: 32px;
+        line-height: 35px;
+        text-align: left;
+    }   
+
+    .place__website {
+        display: none;
+    }
+
+    .place__row-1 {
+        margin-bottom: 32px
+    }
+    .place__row-2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .place__image {
+        width: 100%;
+        height: auto;
+    }
+
+    .place__paragraph {
+        
+        width: calc(100% - (16px * 2));
+        padding-top: 24px;
+        
+        font-size: 16px;
+        line-height: 27px;
+    }
+
+    .place:nth-child(n + 2) {
+        padding-top: 48px;
+    }
+
+
+}
+
+@media (min-width : 320px) and (max-width : 374px) {
+
+    .places {
+        width: 100vw;
+        margin-top: 64px;
+
+    }
+    .place {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .place__title {
+        width: 288px;
+   
+        font-size: 32px;
+        line-height: 35px;
+        
+    }
+
+    .place__website {
+        display: none;
+    }
+
+    .place__row-1 {
+        margin-bottom: 32px;
+        justify-content: center;
+    }
+    .place__row-2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .place__image {
+        width: 100%;
+        height: auto;
+    }
+
+    .place__paragraph {
+        width: calc(100% - (16px * 2));
+        
+        padding-top: 24px;
+        
+        font-size: 16px;
+        line-height: 169.43%;
+    }
+
+    .place:nth-child(n + 2) {
+        padding-top: 48px;
+    }
+
+}
+

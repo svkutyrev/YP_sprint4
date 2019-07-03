@@ -1,0 +1,182 @@
+.intro {
+    margin-top: 80px;
+    width: 90vw;
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.intro__title {
+
+    font-family: Inter;
+    font-size: 54px;
+    line-height: 58px;
+}
+
+.intro__content-row_text{
+    margin-top: 48px;
+    width: 683px;
+
+    font-size: 14px;
+    line-height: 23px;
+}
+
+.intro__text {
+
+    padding-top: 24px;
+
+    font-family: Inter;
+    font-size: 13px;
+    line-height: 20px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+@media  screen and (min-width : 1440px){
+
+    .intro {
+        width: 984px;
+
+    }
+}
+
+@media (min-width : 1281px) and (max-width : 1439px){
+
+    .intro {
+        width: 984px;
+    }
+
+}
+
+@media  screen and (width : 1280px){
+    
+    .intro {
+        width: 984px;
+        
+    }
+
+}
+
+@media (min-width : 1025px) and (max-width : 1279px){
+
+    .intro {
+        width: 90vw;
+    }
+}
+
+/*1024 - код*/
+
+@media  screen and (width : 768px){
+
+    .intro {
+        width: 720px;
+    }
+    
+    .intro__title {
+
+        font-size: 54px;
+        line-height: 58px;
+    }
+    
+    .intro__content-row_text{
+        margin-top: 48px;
+        width: 720px;
+    
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .intro__text {
+
+        font-size: 13px;
+        line-height: 20px;
+
+    }
+    
+}
+
+@media (min-width : 376px) and (max-width : 767px){
+
+    .intro {
+        margin-top: 64px;
+        width: 90vw;
+
+    }
+    
+    .intro__title {
+
+        font-size: 32px;
+        line-height: 35px;
+    }
+    
+    .intro__content-row_text{
+        margin-top: 32px;
+        width: 90vw;
+
+    
+        font-size: 16px;
+        line-height: 27px;
+    }
+
+
+
+}
+
+
+@media  screen and (max-width : 375px){
+    .intro {
+        margin-top: 64px;
+        width: 90vw;
+
+    }
+    
+    .intro__title {
+
+        font-size: 32px;
+        line-height: 35px;
+    }
+    
+    .intro__content-row_text{
+        margin-top: 32px;
+        width: 90vw;
+
+    
+        font-size: 16px;
+        line-height: 27px;
+    }
+}
+
+@media  screen and (max-width : 320px){
+
+    .intro {
+        margin-top: 64px;
+        width: 90vw;
+
+    }
+    
+    .intro__title {
+
+        font-size: 32px;
+        line-height: 35px;
+    }
+    
+    .intro__content-row_text{
+        margin-top: 32px;
+        width: 90vw;
+
+    
+        font-size: 16px;
+        line-height: 169.43%;
+    }
+
+    .intro__text {
+
+        padding-top: 32px;
+
+        font-size: 12px;
+        line-height: 19px;
+
+    }
+}

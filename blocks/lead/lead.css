@@ -1,0 +1,184 @@
+
+.lead {
+    display: flex;
+    position: relative;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 48px;
+
+}
+
+.lead__title {
+
+    width: 782px;
+    font-family: Inter;
+    text-align: center;
+    font-size: 6rem;
+    line-height: 92px;
+
+}
+
+.lead__subtitle {
+    margin-top: 48px;
+    width: 583px;
+    font-family: Inter;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+
+}
+
+.lead__image {
+    margin-top: 78px;
+    width: 984px;
+
+    position: relative;
+
+}
+
+.lead__caption {
+
+    padding-top: 1.5%;
+    align-self: flex-start;
+    
+
+    font-family: Inter;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    
+
+
+}
+
+
+
+
+@media  screen and (min-width : 1280px) {
+
+    .lead__subtitle {
+        margin-top: 48px;
+        width: 583px;
+    }
+
+    .lead__image {
+        margin-top: 78px;
+        width: 984px;
+                
+    }
+
+    .lead__caption {
+
+        padding-top: 10.8px;
+    }
+
+
+}
+
+@media (min-width : 1024px) and (max-width : 1279px){
+
+    .lead__subtitle {
+        margin-top: 46px;
+        width: 500px;
+
+    }
+
+    .lead__image {
+        margin-top: 65px;
+        width: 90vw;
+                
+    }
+    .lead__caption {
+        padding-top: 16px;
+    }
+
+}
+
+@media (min-width : 768px) and (max-width : 1023px){
+
+    .lead__title {
+        width: 90vw;
+    }
+
+    
+    .lead__subtitle {
+        width: 650px;
+    }
+
+    .lead__image {
+        margin-top: 78px;
+        width: 100vw;           
+    }
+    .lead__caption {
+        width: 90vw;
+        padding-top: 16px;
+        align-self: center;
+    }
+}
+
+@media (min-width : 375px) and (max-width : 767px)  {
+
+    .lead__title {
+        
+        width: 343px;
+        font-size: 2.5rem;
+        line-height: 2.7rem;
+    }
+
+    .lead__subtitle {
+        margin-top: 8px;
+        width: 90vw;
+
+        font-size: 1rem;
+        line-height:23px;
+    }
+
+    .lead__image {
+        margin-top: 31px;
+        width: 100vw;
+                
+    }
+
+    .lead__caption {
+        width: 90vw;
+        align-self: center;
+
+    }
+
+
+}
+
+@media  screen and (max-width : 374px) {
+
+    .lead__title {
+        width: 90%;
+
+        font-size: 2.5rem;
+        line-height: 2.7rem;
+
+    }
+
+    .lead__subtitle {
+        margin-top: 8px;
+        width: 288px;
+
+        font-size: 1rem;
+        line-height: 23px;
+    }
+
+    .lead__image {
+        margin-top: 32px;
+        width: 100vw;
+    
+    }
+
+    .lead__caption {
+
+        width: 90vw;
+        padding-top: 10.8px;
+        align-self: center;
+    }
+
+}
+
